@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Bebas";
+  src: url("../ressources/BebasNeue-Regular.otf") format("otf");
+}
+
+html{
+  font-family: 'Bebas Neue';
+}
+
+header h1{
+  margin-block: 0;
+  font-size: 7em;
+}
+
+#feedback{
+  text-align: center;
+}
+
+/* MENU */
+
+#mainNav ul{
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#mainNav li{
+  list-style: none;
+  padding: 5px 25px;
+}
+
+#mainNav a{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 3em;
+}
+
+#mainNav li:hover{
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+/* Accueil */
+
+#textAccueil{
+  width: 50%;
+  font-size: 2em;
+  margin: auto;
+  text-align: center;
+}
+
+/* Informations Page Sneaker */
+
+.imgPresentation{
+  width: 20%;
+}
+
+.figPresentation{
+  text-align: center;
+}
+
+.price{
+  font-size: 2em;
+}
+
+.actions{
+  font-size: 2em;
+}
+
+/* Liste sneakers */
+
+.listeSneakers li a{
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 2em;
+}
+
+.listeSneakers{
+  padding: 0px;
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  width: 20%;
+}
+
+/* A propos */
+
+.listeInfos{
+  padding: 0px;
+  margin: auto;
+  width: 20%;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+/* Commun */
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+#forms{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#forms label{
+  font-size: 2em;
+}
+
+#forms input{
+  margin-bottom: 15px;
+}
+
+.supp{
+  margin: auto;
+  text-align: center;
+}
